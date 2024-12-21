@@ -1,0 +1,62 @@
+/* components/Dashboard.css */
+.dashboard-container {
+    background-image: url('C:\Users\uuham\Downloads\STOCK_PORTFOLIO\StockPortfolio\pexels-alesiakozik-6781008.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  table {
+    width: 50%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  th {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    border-radius: 10px;
+  }
+  
+  td {
+    background-color: #34495e;
+    color: #ecf0f1;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #ecf0f1;
+  }
+  
+  @media (max-width: 768px) {
+    table {
+      width: 90%;
+    }
+  
+    th, td {
+      font-size: 1rem;
+    }
+  }
+  
